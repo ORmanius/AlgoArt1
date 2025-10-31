@@ -16,8 +16,8 @@ import time
 # Mandelbrot Parameters - ZOOMED INTO LEFT SPIRAL
 MANDELBROT_WIDTH = 1000          # Image width in pixels
 MANDELBROT_HEIGHT = 800          # Image height in pixels
-X_MIN, X_MAX = -0.8, -0.4        # Zoomed into left spiral detail
-Y_MIN, Y_MAX = -0.2, 0.2         # Imaginary axis range
+X_MIN, X_MAX = -2.5, 1.0        # Zoomed into left spiral detail
+Y_MIN, Y_MAX = -1.25, 1.25         # Imaginary axis range
 MAX_ITER = 512                   # Maximum iterations for Mandelbrot calculation
 
 # Point Selection Parameters
@@ -26,7 +26,7 @@ BOUNDARY_THRESHOLD = 5.0         # Threshold for boundary detection
 SAMPLE_METHOD = 'boundary'       # 'boundary', 'gradient', or 'random'
 
 # TSP Parameters
-TSP_METHOD = '2opt'              # 'nearest_neighbor' or '2opt'
+TSP_METHOD = 'nearest_neighbor'              # 'nearest_neighbor' or '2opt'
 TWO_OPT_ITERATIONS = 50          # Number of 2-opt improvements (if using 2opt)
 
 # Visual Parameters
